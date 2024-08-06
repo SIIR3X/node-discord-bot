@@ -1,5 +1,7 @@
 # Discord Bot - NodeJS
 
+A simple multitask Discord bot developed in Node.js.
+
 
 ## Description
 
@@ -14,24 +16,24 @@ To install and run the Discord bot, follow these steps:
 
 1. **Clone the repository:**
 ```bash
-   git clone https://github.com/yourusername/discord-bot.git
-   cd discord-bot
+git clone https://github.com/yourusername/discord-bot.git
+cd discord-bot
 ```
 2. **Install dependencies:**
 ```bash
-    npm install
+npm install
 ```
 3. **Configure environment variables:**  
 Open the `.env` file in the root directory of the project and update the following environment variables with your own
 Discord bot information:
 ```env
-    DISCORD_TOKEN=YOUR_BOT_TOKEN_HERE
-    DISCORD_CLIENT_ID=YOUR_CLIENT_ID_HERE
-    DISCORD_GUILD_ID=YOUR_GUILD_ID_HERE
+DISCORD_TOKEN=YOUR_BOT_TOKEN_HERE
+DISCORD_CLIENT_ID=YOUR_CLIENT_ID_HERE
+DISCORD_GUILD_ID=YOUR_GUILD_ID_HERE
 ```
 4. **Run the bot:**
 ```bash
-    npm start
+npm start
 ```
 
 
